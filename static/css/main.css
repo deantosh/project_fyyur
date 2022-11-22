@@ -209,3 +209,6 @@ h2.monospace {
 .subtitle {
   opacity: 0.5;
 }
+.border-left{
+	border-left: 3px solid #ccc;
+}
