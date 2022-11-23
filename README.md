@@ -124,21 +124,21 @@ Acceptance Criteria
   * The relationship between the models should be accurately configured, and referential integrity amongst the models should be preserved.
   * `flask db migrate` should work, and populate my local postgres database with properly configured tables for this application's objects, including proper columns, column data types, constraints, defaults, and relationships that completely satisfy the needs of this application. The proper type of relationship between venues, artists, and shows should be configured.
 
-##### Stand Out
+##### Areas of Improvements
 
-Looking to go above and beyond? This is the right section for you! Here are some challenges to make your submission stand out:
+Looking to go above and beyond? This is the right section for you! Here are some challenges:
 
 *  Implement artist availability. An artist can list available times that they can be booked. Restrict venues from being able to create shows with artists during a show time that is outside of their availability.
 * Show Recent Listed Artists and Recently Listed Venues on the homepage, returning results for Artists and Venues sorting by newly created. Limit to the 10 most recently listed items.
 * Implement Search Artists by City and State, and Search Venues by City and State. Searching by "San Francisco, CA" should return all artists or venues in San Francisco, CA.
 
-Best of luck in your final project! Fyyur depends on you!
+Best of luck! Fyyur depends on you!
 
 
 ## Development Setup
 1. **Download the project starter code locally**
 ```
-git clone https://github.com/udacity/FSND.git
+git clone https://github.com/deantosh/Project_Fyyur.git
 cd FSND/projects/01_fyyur/starter_code 
 ```
 
