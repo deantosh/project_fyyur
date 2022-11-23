@@ -132,7 +132,7 @@ def show_artist(artist_id):
   
   # Get the details of the past shows
   past_shows_query = db.session.query(Show).join(Venue).filter(Show.artist_id==artist_id)\
-    .filter(Show.start_time>datetime.now()).all()
+    .filter(Show.start_time < datetime.now()).all()
   past_shows = []
 
   for show in past_shows_query:
@@ -145,7 +145,7 @@ def show_artist(artist_id):
   
   # Get the details of the upcoming shows
   upcoming_shows_query = db.session.query(Show).join(Venue).filter(Show.artist_id==artist_id)\
-    .filter(Show.start_time>datetime.now()).all()
+    .filter(Show.start_time > datetime.now()).all()
   upcoming_shows = []
 
   for show in upcoming_shows_query:
