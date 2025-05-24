@@ -17,7 +17,7 @@ This app is nearly complete. It is only missing one thing… real data! While th
 * searching for venues and artists.
 * learning more about a specific artist or venue.
 
-**What I did**
+**Completed**
 
 This project now includes fully implemented data models connected to a PostgreSQL database, enabling storage, querying, and creation of information about artists, venues, and shows. The API endpoints are powered by these models, providing real, persistent data instead of mock data.
 
